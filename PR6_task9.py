@@ -1,6 +1,6 @@
 import math
 
-def circle_osition(x1, y1, r1, x2, y2, r2):
+def circle_position(x1, y1, r1, x2, y2, r2):
     distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
 
     sum_radii = r1 + r2
