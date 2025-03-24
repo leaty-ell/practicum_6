@@ -6,8 +6,8 @@ def hole(A, B, C, D, E):
         return True
     return False
 
-A, B = map(float, input("Введите размеры отверстия: ").split(x))
-C, D, E = map(float, input("Введите размеры кирпича: ").split(x))
+A, B = map(float, input("Введите размеры отверстия: ").split('x'))
+C, D, E = map(float, input("Введите размеры кирпича: ").split('x'))
 
 if hole(A, B, C, D, E):
     print("Кирпич может быть выброшен через отверстие.")
